@@ -360,3 +360,7 @@
 
 # DTV
 /dev/isdbt     0660   oem_5019   oem_5019
+
+# permissions for Updater
+/dev/block/sde17   0660   system     system
+/dev/block/sdf17   0660   system     system
