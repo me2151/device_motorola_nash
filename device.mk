@@ -21,6 +21,10 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := 560dpi
 PRODUCT_AAPT_PREBUILT_DPI := xxxhdpi xxhdpi xhdpi hdpi
 
+# APN
+PRODUCT_COPY_FILES += \
+   $(LOCAL_PATH)/apns-full-conf.xml:system/etc/apns-conf.xml
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-impl \
@@ -84,6 +88,10 @@ PRODUCT_PACKAGES += \
     libbson \
     libxml2 \
     Snap
+
+# CDMA
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.telephony.default_cdma_sub=0
 
 # Dalvik/HWUI
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -456,3 +464,8 @@ PRODUCT_PACKAGES += \
     wpa_supplicant \
     wpa_supplicant.conf \
     wpa_supplicant_wcn.conf
+
+# Wifi Calling
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.radio.data_con_rprt=true \
+    persist.data.iwlan.enable=true
