@@ -7,7 +7,7 @@
   },
   {
     "repository": "TheMuppets/proprietary_vendor_motorola",
-    "target_path": "vendor/motorola"
+    "target_path": "vendor/motorola",
     "branch": "lineage-15.1",
     "remote": "github"
   },
@@ -18,7 +18,7 @@
     "remote": "github"
   },
   {
-    "respository": "DirtyUnicorns/android_vendor_pixelgapps",
+    "repository": "DirtyUnicorns/android_vendor_pixelgapps",
     "target_path": "vendor/pixelgapps",
     "branch": "o8x",
     "remote": "github"
