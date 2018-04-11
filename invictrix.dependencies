@@ -2,13 +2,13 @@
   {
     "repository": "InvictrixRom-Devices/kernel_motorola_nash",
     "target_path": "kernel/motorola/nash",
-    "branch": "o-mr1",
+    "branch": "inv-8.1",
     "remote": "github"
   },
   {
-    "repository": "TheMuppets/proprietary_vendor_motorola",
+    "repository": "DirtyUnicorns/android_vendor_motorola",
     "target_path": "vendor/motorola",
-    "branch": "lineage-15.1",
+    "branch": "o8x-caf",
     "remote": "github"
   },
   {
