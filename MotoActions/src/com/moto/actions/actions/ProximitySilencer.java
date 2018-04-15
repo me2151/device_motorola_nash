@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.settings.device.actions;
+package com.invictrix.settings.device.actions;
 
 import android.content.Context;
 import android.hardware.Sensor;
@@ -26,8 +26,8 @@ import android.telecom.TelecomManager;
 import android.telephony.TelephonyManager;
 import android.util.Log;
 
-import com.dirtyunicorns.settings.device.MotoActionsSettings;
-import com.dirtyunicorns.settings.device.SensorHelper;
+import com.invictrix.settings.device.MotoActionsSettings;
+import com.invictrix.settings.device.SensorHelper;
 
 import static android.telephony.TelephonyManager.*;
 

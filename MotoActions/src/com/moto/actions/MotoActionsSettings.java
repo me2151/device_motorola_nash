@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.settings.device;
+package com.invictrix.settings.device;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -25,10 +25,10 @@ import android.provider.Settings;
 
 import android.util.Log;
 
-import com.dirtyunicorns.settings.device.actions.Constants;
-import com.dirtyunicorns.settings.device.actions.UpdatedStateNotifier;
-import com.dirtyunicorns.settings.device.actions.CameraActivationAction;
-import com.dirtyunicorns.settings.device.actions.TorchAction;
+import com.invictrix.settings.device.actions.Constants;
+import com.invictrix.settings.device.actions.UpdatedStateNotifier;
+import com.invictrix.settings.device.actions.CameraActivationAction;
+import com.invictrix.settings.device.actions.TorchAction;
 
 public class MotoActionsSettings {
     private static final String TAG = "MotoActions";

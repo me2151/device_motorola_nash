@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.settings.device.actions;
+package com.invictrix.settings.device.actions;
 
 import java.util.List;
 
@@ -32,7 +32,7 @@ import android.os.Vibrator;
 import android.provider.MediaStore;
 import android.util.Log;
 
-import com.dirtyunicorns.settings.device.SensorAction;
+import com.invictrix.settings.device.SensorAction;
 
 public class CameraActivationAction implements SensorAction {
     private static final String TAG = "MotoActions";

@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.settings.device;
+package com.invictrix.settings.device;
 
 import java.util.List;
 import java.io.FileOutputStream;

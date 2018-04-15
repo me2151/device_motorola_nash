@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.settings.device;
+package com.invictrix.settings.device;
 
 import android.app.ActivityManager;
 import android.app.ActivityManagerNative;
@@ -64,11 +64,11 @@ import android.widget.Toast;
 import com.android.internal.os.DeviceKeyHandler;
 import com.android.internal.util.ArrayUtils;
 
-import com.dirtyunicorns.settings.device.util.FileUtils;
+import com.invictrix.settings.device.util.FileUtils;
 
 import java.util.List;
 
-import static com.dirtyunicorns.settings.device.actions.Constants.*;
+import static com.invictrix.settings.device.actions.Constants.*;
 
 public class KeyHandler implements DeviceKeyHandler {
 
@@ -688,8 +688,8 @@ public class KeyHandler implements DeviceKeyHandler {
         if (ai != null && !ai.supportsPictureInPicture()) {
             try {
                 PackageManager pm = mContext.getPackageManager();
-                Resources resources = pm.getResourcesForApplication("com.dirtyunicorns.settings.device");
-                int resId = resources.getIdentifier("app_does_not_support_pip", "string", "com.dirtyunicorns.settings.device");
+                Resources resources = pm.getResourcesForApplication("com.invictrix.settings.device");
+                int resId = resources.getIdentifier("app_does_not_support_pip", "string", "com.invictrix.settings.device");
                 final String text = resources.getString(resId);
                 mHandler.post(new Runnable() {
                     public void run() {

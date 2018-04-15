@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.settings.device;
+package com.invictrix.settings.device;
 
 import android.app.IntentService;
 import android.content.Context;
@@ -27,19 +27,19 @@ import android.util.Log;
 import java.util.List;
 import java.util.LinkedList;
 
-import com.dirtyunicorns.settings.device.actions.UpdatedStateNotifier;
-import com.dirtyunicorns.settings.device.actions.CameraActivationSensor;
-import com.dirtyunicorns.settings.device.actions.ChopChopSensor;
-import com.dirtyunicorns.settings.device.actions.FlipToMute;
-import com.dirtyunicorns.settings.device.actions.LiftToSilence;
-import com.dirtyunicorns.settings.device.actions.ProximitySilencer;
+import com.invictrix.settings.device.actions.UpdatedStateNotifier;
+import com.invictrix.settings.device.actions.CameraActivationSensor;
+import com.invictrix.settings.device.actions.ChopChopSensor;
+import com.invictrix.settings.device.actions.FlipToMute;
+import com.invictrix.settings.device.actions.LiftToSilence;
+import com.invictrix.settings.device.actions.ProximitySilencer;
 
-import com.dirtyunicorns.settings.device.doze.DozePulseAction;
-import com.dirtyunicorns.settings.device.doze.GlanceSensor;
-import com.dirtyunicorns.settings.device.doze.ProximitySensor;
-import com.dirtyunicorns.settings.device.doze.ScreenReceiver;
-import com.dirtyunicorns.settings.device.doze.ScreenStateNotifier;
-import com.dirtyunicorns.settings.device.doze.StowSensor;
+import com.invictrix.settings.device.doze.DozePulseAction;
+import com.invictrix.settings.device.doze.GlanceSensor;
+import com.invictrix.settings.device.doze.ProximitySensor;
+import com.invictrix.settings.device.doze.ScreenReceiver;
+import com.invictrix.settings.device.doze.ScreenStateNotifier;
+import com.invictrix.settings.device.doze.StowSensor;
 
 public class MotoActionsService extends IntentService implements ScreenStateNotifier,
         UpdatedStateNotifier {

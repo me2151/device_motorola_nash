@@ -15,16 +15,16 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.settings.device.doze;
+package com.invictrix.settings.device.doze;
 
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.util.Log;
 
-import com.dirtyunicorns.settings.device.MotoActionsSettings;
-import com.dirtyunicorns.settings.device.SensorAction;
-import com.dirtyunicorns.settings.device.SensorHelper;
+import com.invictrix.settings.device.MotoActionsSettings;
+import com.invictrix.settings.device.SensorAction;
+import com.invictrix.settings.device.SensorHelper;
 
 public class ProximitySensor implements ScreenStateNotifier, SensorEventListener {
     private static final String TAG = "MotoActions-ProximitySensor";

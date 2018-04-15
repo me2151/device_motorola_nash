@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.settings.device;
+package com.invictrix.settings.device;
 
 import android.app.ActionBar;
 import android.os.Bundle;
@@ -33,10 +33,10 @@ import android.widget.CompoundButton;
 import android.widget.Switch;
 import android.widget.TextView;
 
-import com.dirtyunicorns.settings.device.actions.Constants;
+import com.invictrix.settings.device.actions.Constants;
 
-import static com.dirtyunicorns.settings.device.actions.Constants.FP_HOME_KEY;
-import static com.dirtyunicorns.settings.device.actions.Constants.FP_HOME_KEY_OFF;
+import static com.invictrix.settings.device.actions.Constants.FP_HOME_KEY;
+import static com.invictrix.settings.device.actions.Constants.FP_HOME_KEY_OFF;
 
 public class FPGestureSettingsFragment extends PreferenceFragment {
 

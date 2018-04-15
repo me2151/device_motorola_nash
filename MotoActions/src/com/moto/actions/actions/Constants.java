@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.settings.device.actions;
+package com.invictrix.settings.device.actions;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -25,7 +25,7 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
-import com.dirtyunicorns.settings.device.util.FileUtils;
+import com.invictrix.settings.device.util.FileUtils;
 
 public class Constants {
 

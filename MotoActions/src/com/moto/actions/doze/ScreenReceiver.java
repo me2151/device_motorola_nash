@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.settings.device.doze;
+package com.invictrix.settings.device.doze;
 
 import java.util.List;
 
@@ -24,7 +24,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 
-import com.dirtyunicorns.settings.device.actions.Constants;
+import com.invictrix.settings.device.actions.Constants;
 
 public class ScreenReceiver extends BroadcastReceiver {
     private final ScreenStateNotifier mNotifier;

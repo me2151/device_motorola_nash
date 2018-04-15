@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.settings.device.actions;
+package com.invictrix.settings.device.actions;
 
 public interface UpdatedStateNotifier {
     public void updateState();
